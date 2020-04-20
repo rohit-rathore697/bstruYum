@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+  <link rel="stylesheet" type="text/css" href="css\menu-item-list-customer.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/47f3625455.js" crossorigin="anonymous"></script>
+
+  <title>Menu Items</title>
+</head>
+
+<body>
+  <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="menu-item-list-customer.html"><img src="images\truyum-logo-light.png" height="40px"
+        width="40px" />
+      truYum</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="menu-item-list-customer.html">Menu Items</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="box">
+    <input type="search" id="search" placeholder="search">
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              Pizza &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ₹149</h5>
+            <p class="card-text">
+              Main Course
+            </p>
+            <div id="res1">
+
+            </div>
+            <a href="#" onclick="addToCart(1)" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1512152272829-e3139592d56f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              Burger &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ₹129</h5>
+            <p class="card-text">
+              Main Course
+            </p>
+            <div id="res2">
+
+            </div>
+            <a href="#" onclick="addToCart(2)" class="btn btn-primary" class="delivery"><i class="fas fa-cart-plus"></i>
+              Add To Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              Sandwich &emsp;&emsp;&emsp;&emsp;&emsp; ₹99
+            </h5>
+            <p class="card-text">
+              Main Course
+              <img src="https://getdrawings.com/free-icon-bw/delivery-icon-1.png" id="delivery-icon" />
+            </p>
+            <div id="res3">
+
+            </div>
+            <a href="#" onclick="addToCart(3)" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1526230427044-d092040d48dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              French Fries &emsp;&emsp;&emsp;&emsp; ₹57
+            </h5>
+            <p class="card-text">
+              Starter &emsp;&emsp;
+              <img src="https://getdrawings.com/free-icon-bw/delivery-icon-1.png" id="delivery-icon" />
+            </p>
+            <div id="res4">
+
+            </div>
+            <a href="#" onclick="addToCart(4)" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1564355808539-22fda35bed7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=730&q=80"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              Choclate Brownie &emsp;&emsp; ₹35
+            </h5>
+            <p class="card-text">
+              Desert &emsp;&emsp;
+              <img src="https://getdrawings.com/free-icon-bw/delivery-icon-1.png" id="delivery-icon" />
+            </p>
+            <div id="res5">
+
+            </div>
+            <a href="#" onclick="addToCart(5)" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="myfooter">
+    &nbsp; &nbsp;Copyright 2019
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js\menu-item-list-customer.js"></script>
+</body>
+
+</html>
